@@ -1,7 +1,7 @@
-body{
+body {
   background: #000;
   padding-top: 10px;
-} 
+}
 
 .color {
   color: lime;
@@ -17,28 +17,28 @@ h2.title.color {
   white-space: nowrap;
   overflow: hidden;
   width: inherit;
-  animation: type 4s steps(60, end); 
+  animation: type 4s steps(60, end);
 }
 
-.title:nth-child(2){
+.title:nth-child(2) {
   animation: type2 6s steps(60, end);
 }
 
-.title:nth-child(3){
+.title:nth-child(3) {
   animation: type2 12s steps(60, end);
 }
 
-.title:nth-child(4){
+.title:nth-child(4) {
   animation: type2 20s steps(60, end);
 }
 
-.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link, .button  {
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link, .button {
   color: lime;
   background-color: #000;
   border-color: lime lime lime;
 }
 
-.button  {
+.button {
   color: lime;
   background-color: transparent;
   border-color: lime lime lime;
@@ -49,7 +49,7 @@ h2.title.color {
 }
 
 i.fa {
-    padding-right: 5px;
+  padding-right: 5px;
 }
 
 a.color {
@@ -79,19 +79,39 @@ ul.nav.nav-tabs {
   resize: none;
 }
 
-::-webkit-input-placeholder { color: lime; } 
+::-webkit-input-placeholder {
+  color: lime;
+}
 
-@keyframes type{ 
-  from { width: 0; } 
-} 
+a#btn-cipher, a#btn-decipher {
+  width: 80px;
+  background: lime;
+  color: black;
+  font-weight: bold;
+  font-family: inherit;
+}
 
-@keyframes type2{
-  0%{width: 0;}
-  25%{width: 0;}
-  50%{ width: 0; } 
-  100%{ width: 100; }
-} 
+@keyframes type {
+  from {
+    width: 0;
+  }
+}
 
-::selection{
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  25% {
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 100;
+  }
+}
+
+::selection {
   background: black;
 }
