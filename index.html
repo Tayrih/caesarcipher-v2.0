@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Cifrado Cesar</title>
+<link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+   <div class="container">
+     <div class="row">
+       <div class="col-12 col-md-6 offset-md-3">
+         <h2 class="title color">>_Bienvenido al sistema</h2>
+         <h2 class="title color">de cifrado y descifrado</h2>
+         <p class="title color">A continuación elija una opción,</p>
+         <p class="title color">e ingrese su mensaje</p>
+        </div>
+     </div>
+   </div>
+
+   <div class="container mt-5">
+
+
+   
+
+
+     <div class="row">
+       <div class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3">
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active color" href="#cipher" role="tab" data-toggle="tab" id="cipher-tab" aria-selected="true"><i class="fa fa-lock color" aria-hidden="true"></i>Cifrar</a>
+            </li>
+            <li class="nav-item color">
+              <a class="nav-link" href="#decipher" role="tab" data-toggle="tab" id="decipher-tab" aria-selected="false"><i class="fa fa-unlock color" aria-hidden="true"></i>Descifrar</a>
+            </li>
+          </ul>
+       </div>
+     </div>
+   </div>
+    
+    <div class="container">
+     <div class="row">
+       <div class="col-12 col-md-6 offset-md-3">
+        <div class="tab-content">
+          <!-- Tab panes -->
+            <div role="tabpanel" class="tab-pane fade show active color" id="cipher">
+              <textarea type="text" name="i-cipher" placeholder="Ingrese su mensaje a cifrar" class="d-block mt-3 box" id="val-cipher"></textarea>
+              <button type="button" class="btn btn-outline-secondary d-block mt-3 button" id="btn-cipher">Enviar</button>
+              <div id="container-cipher"></div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade color" id="decipher">
+              <textarea type="text" name="i-cipher" placeholder="Ingrese su mensaje a descifrar" class="d-block mt-3 box" id="val-descipher"></textarea>
+              <button type="button" class="btn btn-outline-secondary d-block mt-3 button" id="btn-descipher">Enviar</button>
+              <div id="container-descipher"></div>
+            </div>
+          </div>
+       </div>
+     </div>
+   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="vendors/bootstrap/js/tether-1.4.0.min.js"></script>
+  <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src=""></script>
+</body>
+</html>
