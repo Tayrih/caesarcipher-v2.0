@@ -8,6 +8,7 @@ En este programa usted podrá elegir la opción de desplazamiento, ingresando la
 ## De la página web:
 * Se utilizó boostrap 4 para el diseño.
 * Para la funcionalidad se trabajó con ES6.
+* El sistema solo cifra o descifra texto, en caso de ingresar números o símbolos junto a texto los omite y en caso de solo ingresar símbolos no.
 
 ### Versión movil
 ![movil](assets/docs/movil.png)

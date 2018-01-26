@@ -115,3 +115,9 @@ a#btn-cipher, a#btn-decipher {
 ::selection {
   background: black;
 }
+
+@media only screen and (min-width: 992px) {
+  h2.title.color {
+    font-size: 2em;
+  }
+}
